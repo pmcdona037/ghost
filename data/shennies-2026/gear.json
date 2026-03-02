@@ -1,0 +1,365 @@
+{
+  "title": "Standard Pack",
+  "summary": [
+    {
+      "category": "Big 4",
+      "weight_lbs": "4.49"
+    },
+    {
+      "category": "Clothing",
+      "weight_lbs": "1.65"
+    },
+    {
+      "category": "Electronics",
+      "weight_lbs": "1.18"
+    },
+    {
+      "category": "Food & Water",
+      "weight_lbs": "0.43"
+    },
+    {
+      "category": "Miscellaneous",
+      "weight_lbs": "1.21"
+    },
+    {
+      "category": "Total Base Weight",
+      "weight_lbs": "8.95 lbs"
+    },
+    {
+      "category": "Total Worn Weight",
+      "weight_lbs": "4.18 lbs"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Big 4",
+      "items": [
+        {
+          "gear": "MYOG Pack",
+          "item_type": "Pack",
+          "quantity": "1",
+          "weight_oz": "9.45"
+        },
+        {
+          "gear": "MYOG Shoulder Pockets",
+          "item_type": "Pack Accessories",
+          "quantity": "2",
+          "weight_oz": "0.75"
+        },
+        {
+          "gear": "Nylofume",
+          "item_type": "Pack Liner",
+          "quantity": "1",
+          "weight_oz": "0.86"
+        },
+        {
+          "gear": "NeoAir Xlite (Short)",
+          "item_type": "Sleeping Pad",
+          "quantity": "1",
+          "weight_oz": "8.14"
+        },
+        {
+          "gear": "GG Thinlite",
+          "item_type": "Sleeping Pad",
+          "quantity": "1",
+          "weight_oz": "2.81"
+        },
+        {
+          "gear": "Katabatic Alsek 22",
+          "item_type": "Quilt",
+          "quantity": "1",
+          "weight_oz": "25.75"
+        },
+        {
+          "gear": "MYOG Tarp",
+          "item_type": "Shelter",
+          "quantity": "1",
+          "weight_oz": "12.71"
+        },
+        {
+          "gear": "YMG Y-Zip Bivy",
+          "item_type": "Shelter",
+          "quantity": "1",
+          "weight_oz": "7.05"
+        },
+        {
+          "gear": "Stakes",
+          "item_type": "Tent Stakes",
+          "quantity": "1",
+          "weight_oz": "3.44"
+        },
+        {
+          "gear": "MYOG Stake Bag",
+          "item_type": "Tent Stakes",
+          "quantity": "1",
+          "weight_oz": "0.07"
+        }
+      ]
+    },
+    {
+      "name": "Clothing",
+      "items": [
+        {
+          "gear": "Darn Tough Micro-Crew",
+          "item_type": "Socks",
+          "quantity": "1",
+          "weight_oz": "1.26"
+        },
+        {
+          "gear": "Darn Tough Quarter Height",
+          "item_type": "Socks",
+          "quantity": "1",
+          "weight_oz": "1.75"
+        },
+        {
+          "gear": "MYOG Mittens",
+          "item_type": "Gloves",
+          "quantity": "1",
+          "weight_oz": "1.29"
+        },
+        {
+          "gear": "Montbell Fleece Gloves",
+          "item_type": "Gloves",
+          "quantity": "1",
+          "weight_oz": "0.97"
+        },
+        {
+          "gear": "Merino Wool Buff",
+          "item_type": "Headware",
+          "quantity": "1",
+          "weight_oz": "1.52"
+        },
+        {
+          "gear": "Cumulus Inverse",
+          "item_type": "Puffy",
+          "quantity": "1",
+          "weight_oz": "8.26"
+        },
+        {
+          "gear": "Senchi 60",
+          "item_type": "Fleece",
+          "quantity": "1",
+          "weight_oz": "4.12"
+        },
+        {
+          "gear": "MYOG Rain Skirt",
+          "item_type": "Rain Gear",
+          "quantity": "1",
+          "weight_oz": "1.6"
+        },
+        {
+          "gear": "Frogg Toggs Jacket",
+          "item_type": "Rain Gear",
+          "quantity": "1",
+          "weight_oz": "5.61"
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "items": [
+        {
+          "gear": "USB-C Cord",
+          "item_type": "Charging",
+          "quantity": "1",
+          "weight_oz": "0.65"
+        },
+        {
+          "gear": "iPhone 17",
+          "item_type": "Device",
+          "quantity": "1",
+          "weight_oz": "7.39"
+        },
+        {
+          "gear": "Garmin inReach Mini 2",
+          "item_type": "Device",
+          "quantity": "1",
+          "weight_oz": "3.68"
+        },
+        {
+          "gear": "Apple Wired Headphones",
+          "item_type": "Headphones",
+          "quantity": "1",
+          "weight_oz": "0.46"
+        },
+        {
+          "gear": "NU20 Classic",
+          "item_type": "Device",
+          "quantity": "1",
+          "weight_oz": "1.34"
+        },
+        {
+          "gear": "Nitecore 10k",
+          "item_type": "Charging",
+          "quantity": "1",
+          "weight_oz": "5.36"
+        }
+      ]
+    },
+    {
+      "name": "Food & Water",
+      "items": [
+        {
+          "gear": "Aquamira",
+          "item_type": "Water Filter",
+          "quantity": "1",
+          "weight_oz": "1.5"
+        },
+        {
+          "gear": "0.7L SmartWater Bottle",
+          "item_type": "Water Storage",
+          "quantity": "2",
+          "weight_oz": "1.04"
+        },
+        {
+          "gear": "Evernew Bladder 2L",
+          "item_type": "Water Storage",
+          "quantity": "1",
+          "weight_oz": "1.44"
+        },
+        {
+          "gear": "Hyperlite Bear Bag",
+          "item_type": "Food Storage",
+          "quantity": "1",
+          "weight_oz": "1.36"
+        },
+        {
+          "gear": "Short Titanium Spoon",
+          "item_type": "Cooking",
+          "quantity": "1",
+          "weight_oz": "0.42"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "items": [
+        {
+          "gear": "Borah Gear DCF Stuff Sack",
+          "item_type": "Storage",
+          "quantity": "1",
+          "weight_oz": "0.21"
+        },
+        {
+          "gear": "Nail Scissors & Razor Blade",
+          "item_type": "FAK & Poop Kit",
+          "quantity": "1",
+          "weight_oz": "0.43"
+        },
+        {
+          "gear": "Bidet",
+          "item_type": "FAK & Poop Kit",
+          "quantity": "1",
+          "weight_oz": "0.2"
+        },
+        {
+          "gear": "DIY First Aid Kit",
+          "item_type": "FAK & Poop Kit",
+          "quantity": "1",
+          "weight_oz": "3.42"
+        },
+        {
+          "gear": "Liteload Towel",
+          "item_type": "FAK & Poop Kit",
+          "quantity": "1",
+          "weight_oz": "0.27"
+        },
+        {
+          "gear": "Soap & Hand Sanitizer",
+          "item_type": "FAK & Poop Kit",
+          "quantity": "1",
+          "weight_oz": "0.87"
+        },
+        {
+          "gear": "Kahtoola Microspikes",
+          "item_type": "Snow Gear",
+          "quantity": "1",
+          "weight_oz": "13.4"
+        },
+        {
+          "gear": "MYOG VX07 Wallet with Cards & Cash",
+          "item_type": "Storage",
+          "quantity": "1",
+          "weight_oz": "0.57"
+        }
+      ]
+    },
+    {
+      "name": "Worn Weight",
+      "items": [
+        {
+          "gear": "Goodr Sunglasses",
+          "item_type": "Sunglasses",
+          "quantity": "1",
+          "weight_oz": "0.77"
+        },
+        {
+          "gear": "Vantage Point Trucker",
+          "item_type": "Hat",
+          "quantity": "1",
+          "weight_oz": "2.18"
+        },
+        {
+          "gear": "Wool & Prince Button Down",
+          "item_type": "Shirt",
+          "quantity": "1",
+          "weight_oz": "9.23"
+        },
+        {
+          "gear": "Amazon Sun Gloves",
+          "item_type": "Gloves",
+          "quantity": "1",
+          "weight_oz": "0.63"
+        },
+        {
+          "gear": "Casio W800-H",
+          "item_type": "Watch",
+          "quantity": "1",
+          "weight_oz": "1.3"
+        },
+        {
+          "gear": "T8 Commando Underwear",
+          "item_type": "Underwear",
+          "quantity": "0",
+          "weight_oz": "1.36"
+        },
+        {
+          "gear": "MH Trail Senders",
+          "item_type": "Pants",
+          "quantity": "1",
+          "weight_oz": "5.77"
+        },
+        {
+          "gear": "Darn Tough Micro-Crew",
+          "item_type": "Socks",
+          "quantity": "1",
+          "weight_oz": "1.26"
+        },
+        {
+          "gear": "Dirty Girl Gaiters",
+          "item_type": "Socks",
+          "quantity": "1",
+          "weight_oz": "1.52"
+        },
+        {
+          "gear": "Topo Ultraventure 3",
+          "item_type": "Shoes",
+          "quantity": "1",
+          "weight_oz": "26"
+        },
+        {
+          "gear": "Saber Red Gel Pepper Spray",
+          "item_type": "Self Defense",
+          "quantity": "1",
+          "weight_oz": "1.16"
+        },
+        {
+          "gear": "Cascade Mountain Tech Trekking Poles",
+          "item_type": "Trekking Poles",
+          "quantity": "1",
+          "weight_oz": "17"
+        }
+      ]
+    }
+  ]
+}
