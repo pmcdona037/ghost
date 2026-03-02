@@ -145,7 +145,7 @@
           "gear": "MYOG Rain Skirt",
           "item_type": "Rain Gear",
           "quantity": "1",
-          "weight_oz": "1.6"
+          "weight_oz": "1.60"
         },
         {
           "gear": "Frogg Toggs Jacket",
@@ -203,7 +203,7 @@
           "gear": "Aquamira",
           "item_type": "Water Filter",
           "quantity": "1",
-          "weight_oz": "1.5"
+          "weight_oz": "1.50"
         },
         {
           "gear": "0.7L SmartWater Bottle",
@@ -250,7 +250,7 @@
           "gear": "Bidet",
           "item_type": "FAK & Poop Kit",
           "quantity": "1",
-          "weight_oz": "0.2"
+          "weight_oz": "0.20"
         },
         {
           "gear": "DIY First Aid Kit",
@@ -274,7 +274,7 @@
           "gear": "Kahtoola Microspikes",
           "item_type": "Snow Gear",
           "quantity": "1",
-          "weight_oz": "13.4"
+          "weight_oz": "13.40"
         },
         {
           "gear": "MYOG VX07 Wallet with Cards & Cash",
@@ -315,7 +315,7 @@
           "gear": "Casio W800-H",
           "item_type": "Watch",
           "quantity": "1",
-          "weight_oz": "1.3"
+          "weight_oz": "1.30"
         },
         {
           "gear": "T8 Commando Underwear",
@@ -345,7 +345,7 @@
           "gear": "Topo Ultraventure 3",
           "item_type": "Shoes",
           "quantity": "1",
-          "weight_oz": "26"
+          "weight_oz": "26.00"
         },
         {
           "gear": "Saber Red Gel Pepper Spray",
@@ -357,7 +357,7 @@
           "gear": "Cascade Mountain Tech Trekking Poles",
           "item_type": "Trekking Poles",
           "quantity": "1",
-          "weight_oz": "17"
+          "weight_oz": "17.00"
         }
       ]
     }
