@@ -11,7 +11,7 @@
     },
     {
       "category": "Electronics",
-      "weight_lbs": "1.18"
+      "weight_lbs": "0.95"
     },
     {
       "category": "Food & Water",
@@ -23,7 +23,7 @@
     },
     {
       "category": "Total Base Weight",
-      "weight_lbs": "8.95 lbs"
+      "weight_lbs": "8.72 lbs"
     },
     {
       "category": "Total Worn Weight",
@@ -169,12 +169,6 @@
           "item_type": "Device",
           "quantity": "1",
           "weight_oz": "7.39"
-        },
-        {
-          "gear": "Garmin inReach Mini 2",
-          "item_type": "Device",
-          "quantity": "1",
-          "weight_oz": "3.68"
         },
         {
           "gear": "Apple Wired Headphones",
