@@ -235,6 +235,24 @@ function buildMap(dayResults) {
     }
   ).addTo(map);
 
+  // US State boundaries — loaded as GeoJSON
+  fetch('https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json')
+    .then(res => res.json())
+    .then(states => {
+      L.geoJSON(states, {
+        style: {
+          color: '#ffffff',
+          weight: 1.5,
+          opacity: 0.7,
+          fill: false,
+        },
+        interactive: false,
+      }).addTo(map);
+    })
+    .catch(err => {
+      console.warn('[trip.js] Failed to load state boundaries:', err);
+    });
+
   // US State boundaries — loaded as GeoJSON vector layer
   fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
     .then(res => res.json())
