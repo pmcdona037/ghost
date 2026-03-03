@@ -224,16 +224,36 @@ function buildMap(dayResults) {
     }
   ).addTo(map);
 
-  // Boundary overlay — ESRI Reference layer (state + country borders, labels)
-  // Transparent overlay drawn on top of satellite — no API key required
+
+  // Labels overlay — CartoDB labels-only layer for place names
   L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',
+    'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png',
     {
-      opacity: 0.5,
+      opacity: 0.7,
       maxZoom: 18,
       pane: 'overlayPane',
     }
   ).addTo(map);
+
+  // US State boundaries — loaded as GeoJSON vector layer
+  fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
+    .then(res => res.json())
+    .then(data => {
+      // Convert TopoJSON to GeoJSON
+      const states = topojson.feature(data, data.objects.states);
+      L.geoJSON(states, {
+        style: {
+          color: '#ffffff',
+          weight: 1.5,
+          opacity: 0.6,
+          fill: false,
+        },
+        interactive: false,
+      }).addTo(map);
+    })
+    .catch(() => {
+      console.warn('[trip.js] Failed to load state boundaries');
+    });
 
   const allBounds = [];
   const layers    = [];
